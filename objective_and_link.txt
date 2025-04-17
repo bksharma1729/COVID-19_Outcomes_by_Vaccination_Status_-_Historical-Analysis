@@ -1,0 +1,38 @@
+Datasets Link:-
+objectives:
+i.	COVID-19 Trends Over Time by Vaccination Status
+ii.         Effectiveness of Vaccination in Reducing Severe Outcomes
+iii.       Risk Reduction Analysis
+iv.       Age Group Vulnerability Analysis
+v.        Temporal Trends Analysis
+vi.       Age Group Vulnerability Analysis
+vii.      Numerical Feature Trend Analysis
+viii.    Outcome Rate Distribution Analysis Using Box Plots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Objective 1:To analyze COVID-19 trends over time across different vaccination statuses
+objective 2:To evaluate the effectiveness of vaccination in reducing severe outcomes
+Objective 3: Risk Reduction Analysis
+# ➤ Calculate and visualize outcome rates per 100,000 population to assess how vaccination reduces risk.
+Objective 4: Age Group Vulnerability Analysis
+Objective 5: Temporal Trends Analysis
+# The goal here is to examine how outcomes change week by week to uncover seasonal patterns, outbreak waves, or the impact of public health interventions.
+Objective 6: Correlation Analysis by using a donut chart (a stylized pie chart) to illustrate the relative contribution of outcome types across vaccination statuses.import matplotlib.pyplot as plt
+Objective 7: 
+# ➤Line chart to visualize trends in numerical features across records.
+# Objective 3: Outcome Rate Distribution Analysis Using Box Plots
+
