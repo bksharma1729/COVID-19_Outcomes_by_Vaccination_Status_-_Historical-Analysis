@@ -1,0 +1,38 @@
+1. Introduction 
+In the wake of the global COVID-19 pandemic, data-driven insights have become crucial 
+for public health strategies and vaccine policy decisions. This project presents a 
+comprehensive analysis of COVID-19 outcomes by vaccination status in the United 
+States, using a cleaned and structured dataset sourced from public health records. The 
+analysis was performed using Python and data visualization libraries such as Matplotlib 
+and Seaborn. 
+The primary objective is to explore the relationship between vaccination status and key 
+COVID-19 outcomes such as cases, hospitalizations, and deaths. By examining trends 
+across different age groups and time periods, the report aims to uncover patterns that 
+inform the effectiveness of vaccination campaigns. The cleaned dataset, visualized 
+through graphs and summary tables, provides a valuable tool for health analysts, 
+researchers, and policy-makers to evaluate public health responses and plan for future 
+contingencies. 
+2. Source of Dataset 
+The dataset used in this project comes from public health records and is titled COVID-19 
+Outcomes by Vaccination Status - Historical. It includes information about COVID-19 
+cases, hospitalizations, and deaths, grouped by vaccination status such as Unvaccinated, 
+Vaccinated, and Boosted. The data also includes different age groups and is updated 
+weekly. 
+Since the dataset covers several months, it helps us see how outcomes have changed over 
+time. This makes it useful for understanding how vaccines have helped reduce the impact 
+of COVID-19. The dataset is a good source for analysing trends and making informed 
+decisions in healthcare and public safety. 
+. 
+3. EDA Process 
+In this project, EDA helped clean and organize the COVID-19 data so it could be used 
+effectively for analysis and visualization. The following steps were carried out: 
+• Checked for missing values and filled or removed them where needed 
+• Standardized column names by converting them to lowercase and replacing 
+spaces with underscores 
+• Converted date columns to proper datetime format for easier sorting and filtering 
+• Removed duplicate records to avoid errors in analysis 
+• Cleaned up incorrect or invalid entries in the age group and vaccination status 
+columns 
+• Dropped columns with too many missing values that could not be used 
+• Sorted the data by reporting dates to observe changes over time 
+• Filtered the dataset to include only valid age groups for more accurate insight 
