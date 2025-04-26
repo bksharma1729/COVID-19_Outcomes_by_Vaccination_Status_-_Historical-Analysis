@@ -17,7 +17,7 @@ avg_rates = severe_outcomes.groupby("outcome").agg({
     "boosted_rate": "mean"
 }).reset_index()
 
-# Reshape for plotting
+# Reshape for plotting  
 avg_rates = avg_rates.melt(
     id_vars="outcome",
     var_name="Vaccination_Status",
