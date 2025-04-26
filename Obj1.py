@@ -8,7 +8,7 @@ import seaborn as sns
 df = pd.read_csv("COVID-19_Outcomes_by_Vaccination_Status_-_Historical.csv")
 
 
-# Display basic information about the dataset
+# Display basic information about the datasets
 print("Shape of the dataset:", df.shape)
 print("\nColumn names and data types:\n")
 print(df.dtypes)
