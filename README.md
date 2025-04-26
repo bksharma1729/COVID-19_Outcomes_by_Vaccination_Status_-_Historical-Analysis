@@ -212,4 +212,4 @@ forecasting or classification models, would allow for estimating future case cou
 hospitalization risks, or mortality probabilities across vaccination groups. This could 
 support health agencies in preparing for potential surges. 
 7. References: 
-[1] Microsoft Excel Documentation: https://support.microsoft.com/en-us/excel
+[1] Microsoft Excel Documentation: https://support.microsoft.com/en-us/excel.
