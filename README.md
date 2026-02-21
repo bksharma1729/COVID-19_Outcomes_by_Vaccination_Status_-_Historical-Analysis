@@ -1,7 +1,13 @@
 COVID-19 Outcomes by Vaccination Status – Historical Analysis
-***Overview***
 
-This project analyzes COVID-19 cases, hospitalizations, and deaths based on vaccination status:
+
+📌 Project Overview
+
+This project analyzes how COVID-19 cases, hospitalizations, and deaths differ based on vaccination status over time.
+
+The main objective is to evaluate the effectiveness of vaccination — including booster doses — in reducing infection severity and mortality risk.
+
+The analysis is based on weekly COVID-19 data categorized into:
 
 Unvaccinated
 
@@ -9,69 +15,96 @@ Fully Vaccinated
 
 Boosted
 
-The goal is to evaluate how vaccination impacts infection severity and risk over time using normalized rates (per 100,000 population).
+All comparisons use rates per 100,000 people to ensure fair and standardized analysis.
 
-🛠 Tools Used
+🎯 Project Goals
+
+Compare COVID-19 outcomes across vaccination groups
+
+Identify trends over time
+
+Measure risk reduction due to vaccination
+
+Analyze age-related vulnerability
+
+Examine distribution patterns and variability
+
+🛠 Tools & Libraries
 
 Python
 
-Pandas
+Pandas – Data cleaning and aggregation
 
-Matplotlib
+Matplotlib – Data visualization
 
-Seaborn
+Seaborn – Statistical visualization
 
-📊 Key Analyses
+📊 What Was Analyzed
 1️⃣ Trends Over Time
 
-Compared weekly cases, hospitalizations, and deaths.
+Weekly cases, hospitalizations, and deaths were plotted.
 
 Unvaccinated individuals consistently showed higher rates.
 
-Boosted individuals showed the lowest rates.
+Boosted individuals showed the lowest outcome rates.
 
 2️⃣ Severe Outcome Comparison
 
 Focused on hospitalizations and deaths.
 
-Clear reduction in severity with increased vaccination.
+Calculated average rates per vaccination group.
 
-3️⃣ Risk Reduction
+Found clear reduction in severity with increased vaccination.
 
-Calculated standardized rates:
+3️⃣ Risk Reduction Calculation
 
-rate = (outcome_count / population) * 100000
+Outcome rates were standardized using:
 
-Risk decreases from Unvaccinated → Vaccinated → Boosted.
+rate = (outcome_count / population) × 100,000
 
-4️⃣ Age Vulnerability
+Risk consistently decreased from:
+Unvaccinated → Vaccinated → Boosted
 
-Younger groups: higher case counts.
+4️⃣ Age Group Vulnerability
 
-Older groups: higher hospitalization and death rates.
+Younger groups recorded more cases.
+
+Older groups had higher hospitalization and death rates.
+
+Confirms increased severity risk with age.
 
 5️⃣ Distribution Analysis
 
-Box plots show:
+Box plots showed higher variability and extreme values among unvaccinated groups.
 
-Greater variability and outliers among unvaccinated groups.
-
-More stable and lower rates among boosted individuals.
+Boosted individuals had lower and more stable outcome rates.
 
 ✅ Key Findings
 
-Vaccination significantly reduces severe outcomes.
+Vaccination significantly reduces severe COVID-19 outcomes.
 
 Booster doses provide the strongest protection.
 
-Unvaccinated populations show higher risk and variability.
+Unvaccinated populations face higher risk and greater variability.
 
-Time-series trends align with major outbreak waves.
+Time-series analysis highlights clear outbreak waves.
 
 🚀 Future Improvements
 
-Time-series forecasting
+Time-series forecasting models
 
-Machine learning risk prediction
+Machine learning for risk prediction
 
-Interactive dashboards
+Interactive dashboards (e.g., Plotly or Streamlit)
+
+Advanced statistical modeling
+
+📂 How to Run
+
+Clone the repository
+
+Install required libraries:
+
+pip install pandas matplotlib seaborn
+
+Run the analysis scripts or Jupyter Notebook
