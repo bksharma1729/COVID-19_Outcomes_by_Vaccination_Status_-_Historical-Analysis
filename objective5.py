@@ -1,5 +1,5 @@
 # Objective 6: Temporal Trends Analysis
-# The goal here is to examine how outcomes change week by week to uncover seasonal patterns, outbreak waves, or the impact of public health interventions.
+# The goal here is to examine how outcomes change week by week to uncover seasonal patterns, outbreak waves, or the impact of public health interventions
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
